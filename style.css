@@ -4,7 +4,6 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: rgb(232, 255, 232);  
-    
     color: #000000;
     font: Verdana, Arial, Sans-Serif;
 }
@@ -36,17 +35,22 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
+img.zweefLinks1 {
+    width: 300px;
+    float: center; 
+    margin-left: 200px;
+    margin-right: 200px;
+}
+img.zweefLinks2 {
     float: left;
     margin-right: 20px;
 }
-
 .smalltext {
     font-size: 0.7em;
 }
 
 a {
-    color: rgb(232, 255, 232);
+    color: rgb(9, 211, 36, 0.685);
     text-decoration: none;
 }
 
