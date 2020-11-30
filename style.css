@@ -44,6 +44,7 @@ img.zweefLinks1 {
 img.zweefLinks2 {
     float: left;
     margin-right: 20px;
+    width: 200px;
 }
 .smalltext {
     font-size: 0.7em;
