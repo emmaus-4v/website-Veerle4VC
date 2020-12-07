@@ -18,6 +18,7 @@ main {
 
 article {
     text-align: justify;
+    margin: 20 px;
 }
 
 
@@ -41,14 +42,26 @@ img.zweefLinks1 {
     margin-left: 200px;
     margin-right: 200px;
 }
-img.zweefLinks2 {
+img.bogenlinks {
     float: left;
     margin-right: 20px;
-    width: 200px;
+    width: 300px;
+}
+img.bogenrechts{
+    float: right;
+    margin-left: 20px;
+    width: 300px;
 }
 img.lasvegasshoot {
     width: 700px;
     float: center;
+}
+
+img.overmij{
+    width: 200px;
+    float: center;
+    margin-right: 250px;
+    margin-left: 250px;
 }
 .smalltext {
     font-size: 0.7em;
@@ -64,18 +77,18 @@ a:hover {
 }
 
 .recurveboog{
-    margin: 20px;
+    margin: 10px;
     float: left;
     
 }
 
 .compoundboog{
-    margin: 20px;
-    float: left;
+    margin: 10px;
+    float: right;
 }
 
 .barebow{
-    margin: 20px;
+    margin: 10px;
     float: left;
 }
 
