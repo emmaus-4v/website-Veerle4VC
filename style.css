@@ -19,6 +19,7 @@ main {
 article {
     text-align: justify;
     margin: 20 px;
+    clear: both;
 }
 
 
@@ -51,6 +52,15 @@ img.bogenrechts{
     float: right;
     margin-left: 20px;
     width: 300px;
+}
+img.wedstrijdenrechts{
+    width: 200px;
+    float: right;
+    margin: 10px;
+    
+}
+img.wedstrijdenlinks{
+    
 }
 img.lasvegasshoot {
     width: 700px;
