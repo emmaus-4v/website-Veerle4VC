@@ -43,24 +43,21 @@ img.zweefLinks1 {
     margin-left: 200px;
     margin-right: 200px;
 }
-img.bogenlinks {
+img.afbeeldingenlinks {
     float: left;
     margin-right: 20px;
     width: 300px;
 }
-img.bogenrechts{
+img.afbeeldingenrechts{
     float: right;
     margin-left: 20px;
     width: 300px;
 }
-img.wedstrijdenrechts{
-    width: 200px;
-    float: right;
-    margin: 10px;
-    
-}
-img.wedstrijdenlinks{
-    
+
+img.blazoen{
+    width: 250px;
+    margin-right: 225px;
+    margin-left: 225px;
 }
 img.lasvegasshoot {
     width: 700px;
