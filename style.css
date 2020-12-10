@@ -32,17 +32,12 @@ header {
 footer {
     text-align: center;
     padding-bottom: 10px;
+    clear:both;
 }
 
 
 /* specifieke stijlen */
 
-img.zweefLinks1 {
-    width: 300px;
-    float: center; 
-    margin-left: 200px;
-    margin-right: 200px;
-}
 img.afbeeldingenlinks {
     float: left;
     margin-right: 20px;
@@ -51,6 +46,7 @@ img.afbeeldingenlinks {
 img.afbeeldingenrechts{
     float: right;
     margin-left: 20px;
+    margin-bottom: 10px;
     width: 300px;
 }
 
