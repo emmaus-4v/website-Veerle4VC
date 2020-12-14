@@ -40,6 +40,7 @@ footer {
 
 img.afbeeldingenlinks {
     float: left;
+    margin-bottom: 10px;
     margin-right: 20px;
     width: 300px;
 }
@@ -77,22 +78,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-.recurveboog{
-    margin: 10px;
-    float: left;
-    
-}
-
-.compoundboog{
-    margin: 10px;
-    float: right;
-}
-
-.barebow{
-    margin: 10px;
-    float: left;
 }
 
 
