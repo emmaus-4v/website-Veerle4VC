@@ -113,3 +113,13 @@ nav li a.active {
 
 
 
+/*animatie*/
+
+@keyframes header{
+    0%{ color: rgb(185, 255, 185)}
+    100%{color: rgb(9, 211, 36, 0.685)}
+}
+
+.animatie { 
+    animation: header 5s infinite;
+}
