@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     background-color: rgb(232, 255, 232);  
     color: #000000;
-    font: Verdana, Arial, Sans-Serif;
+    font: Verdana, Sans-serif;
 }
 
 
@@ -36,7 +36,7 @@ footer {
 }
 
 
-/* specifieke stijlen */
+/* afbeeldingen */
 
 img.afbeeldingenlinks {
     float: left;
@@ -67,6 +67,7 @@ img.overmij{
     margin-right: 250px;
     margin-left: 250px;
 }
+/*specifieke stijlen*/
 .smalltext {
     font-size: 0.7em;
 }
@@ -111,15 +112,15 @@ nav li a.active {
 }
 
 
-
-
 /*animatie*/
 
-@keyframes header{
-    0%{ color: rgb(185, 255, 185)}
-    100%{color: rgb(9, 211, 36, 0.685)}
+@keyframes kleurverandering{
+    0%{color: rgb(185, 255, 185)}
+    33%{color: rgb(9, 211, 36, 0.685)}
+    66%{color: rgb(185, 255, 185)}
+    100%{color: rgba(9, 211, 36, 0.685)}
 }
 
 .animatie { 
-    animation: header 5s infinite;
+    animation: kleurverandering 15s infinite;
 }
